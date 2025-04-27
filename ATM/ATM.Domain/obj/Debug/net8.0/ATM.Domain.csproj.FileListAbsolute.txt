@@ -1,0 +1,12 @@
+C:\Users\Mario\Documents\LABORATORIOS DE PATRONES DE SOFTWARE\lab-2025-i-cps-u1-04-csharp-Marant7\ATM\ATM.Domain\bin\Debug\net8.0\ATM.Domain.deps.json
+C:\Users\Mario\Documents\LABORATORIOS DE PATRONES DE SOFTWARE\lab-2025-i-cps-u1-04-csharp-Marant7\ATM\ATM.Domain\bin\Debug\net8.0\ATM.Domain.dll
+C:\Users\Mario\Documents\LABORATORIOS DE PATRONES DE SOFTWARE\lab-2025-i-cps-u1-04-csharp-Marant7\ATM\ATM.Domain\bin\Debug\net8.0\ATM.Domain.pdb
+C:\Users\Mario\Documents\LABORATORIOS DE PATRONES DE SOFTWARE\lab-2025-i-cps-u1-04-csharp-Marant7\ATM\ATM.Domain\obj\Debug\net8.0\ATM.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mario\Documents\LABORATORIOS DE PATRONES DE SOFTWARE\lab-2025-i-cps-u1-04-csharp-Marant7\ATM\ATM.Domain\obj\Debug\net8.0\ATM.Domain.AssemblyInfoInputs.cache
+C:\Users\Mario\Documents\LABORATORIOS DE PATRONES DE SOFTWARE\lab-2025-i-cps-u1-04-csharp-Marant7\ATM\ATM.Domain\obj\Debug\net8.0\ATM.Domain.AssemblyInfo.cs
+C:\Users\Mario\Documents\LABORATORIOS DE PATRONES DE SOFTWARE\lab-2025-i-cps-u1-04-csharp-Marant7\ATM\ATM.Domain\obj\Debug\net8.0\ATM.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Mario\Documents\LABORATORIOS DE PATRONES DE SOFTWARE\lab-2025-i-cps-u1-04-csharp-Marant7\ATM\ATM.Domain\obj\Debug\net8.0\ATM.Domain.sourcelink.json
+C:\Users\Mario\Documents\LABORATORIOS DE PATRONES DE SOFTWARE\lab-2025-i-cps-u1-04-csharp-Marant7\ATM\ATM.Domain\obj\Debug\net8.0\ATM.Domain.dll
+C:\Users\Mario\Documents\LABORATORIOS DE PATRONES DE SOFTWARE\lab-2025-i-cps-u1-04-csharp-Marant7\ATM\ATM.Domain\obj\Debug\net8.0\refint\ATM.Domain.dll
+C:\Users\Mario\Documents\LABORATORIOS DE PATRONES DE SOFTWARE\lab-2025-i-cps-u1-04-csharp-Marant7\ATM\ATM.Domain\obj\Debug\net8.0\ATM.Domain.pdb
+C:\Users\Mario\Documents\LABORATORIOS DE PATRONES DE SOFTWARE\lab-2025-i-cps-u1-04-csharp-Marant7\ATM\ATM.Domain\obj\Debug\net8.0\ref\ATM.Domain.dll

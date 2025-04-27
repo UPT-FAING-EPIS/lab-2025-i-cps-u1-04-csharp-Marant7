@@ -1,0 +1,144 @@
+name: Publish Docs
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '8.0.x'
+
+    - name: Install DocFX
+      run: |
+        dotnet tool install -g docfx
+
+    - name: Create docfx.json for ATM
+      run: |
+        mkdir -p ATM
+        echo '{
+          "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+          "metadata": [
+            {
+              "src": [
+                {
+                  "src": "ATM/ATM.Domain",
+                  "files": [
+                    "**/*.csproj"
+                  ]
+                }
+              ],
+              "dest": "docs"
+            }
+          ],
+          "build": {
+            "content": [
+              {
+                "files": [
+                  "**/*.{md,yml}"
+                ],
+                "exclude": [
+                  "_site/**"
+                ]
+              }
+            ],
+            "resource": [
+              {
+                "files": [
+                  "images/**"
+                ]
+              }
+            ],
+            "output": "_site",
+            "template": [
+              "default",
+              "modern"
+            ],
+            "globalMetadata": {
+              "_appName": "ATM",
+              "_appTitle": "ATM Documentation",
+              "_enableSearch": true,
+              "pdf": true
+            }
+          }
+        }' > ATM/docfx.json
+
+    - name: Create docfx.json for Payment
+      run: |
+        mkdir -p Payment
+        echo '{
+          "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+          "metadata": [
+            {
+              "src": [
+                {
+                  "src": "Payment/Payment.Domain",
+                  "files": [
+                    "**/*.csproj"
+                  ]
+                }
+              ],
+              "dest": "docs"
+            }
+          ],
+          "build": {
+            "content": [
+              {
+                "files": [
+                  "**/*.{md,yml}"
+                ],
+                "exclude": [
+                  "_site/**"
+                ]
+              }
+            ],
+            "resource": [
+              {
+                "files": [
+                  "images/**"
+                ]
+              }
+            ],
+            "output": "_site",
+            "template": [
+              "default",
+              "modern"
+            ],
+            "globalMetadata": {
+              "_appName": "Payment",
+              "_appTitle": "Payment Documentation",
+              "_enableSearch": true,
+              "pdf": true
+            }
+          }
+        }' > Payment/docfx.json
+
+    - name: Build ATM documentation
+      run: |
+        docfx metadata ATM/docfx.json
+        docfx build ATM/docfx.json -o public/ATM
+
+    - name: Build Payment documentation
+      run: |
+        docfx metadata Payment/docfx.json
+        docfx build Payment/docfx.json -o public/Payment
+
+    - name: Create index.html for Documentation
+      run: |
+        mkdir -p public
+        echo '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Documentation Index</title></head><body><h1>Documentation Index</h1><ul><li><a href="ATM/docs/toc.html">ATM Documentation</a></li><li><a href="Payment/docs/toc.html">Payment Documentation</a></li></ul></body></html>' > public/index.html
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
