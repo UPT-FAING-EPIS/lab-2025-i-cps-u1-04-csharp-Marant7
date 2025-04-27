@@ -19,6 +19,145 @@
         }
       },
       "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/ATM.Domain.ATM.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ATM.Domain.ATM.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ATM.Domain.ATM",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/ATM.Domain.Account.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ATM.Domain.Account.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ATM.Domain.Account",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/ATM.Domain.DepositCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ATM.Domain.DepositCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ATM.Domain.DepositCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/ATM.Domain.ICommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ATM.Domain.ICommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ATM.Domain.ICommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/ATM.Domain.Tests.ATMTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ATM.Domain.Tests.ATMTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ATM.Domain.Tests.ATMTests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/ATM.Domain.Tests.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ATM.Domain.Tests.Tests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ATM.Domain.Tests.Tests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/ATM.Domain.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ATM.Domain.Tests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ATM.Domain.Tests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/ATM.Domain.WithdrawCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ATM.Domain.WithdrawCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ATM.Domain.WithdrawCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/ATM.Domain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/ATM.Domain.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ATM.Domain",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
     }
   ],
   "groups": [

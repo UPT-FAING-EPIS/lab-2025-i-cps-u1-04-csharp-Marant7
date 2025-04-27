@@ -1,3 +1,222 @@
 ### YamlMime:XRefMap
 sorted: true
-references: []
+references:
+- uid: Payment.Domain
+  name: Payment.Domain
+  href: docs/Payment.Domain.html
+  commentId: N:Payment.Domain
+  fullName: Payment.Domain
+  nameWithType: Payment.Domain
+- uid: Payment.Domain.CashPaymentStrategy
+  name: CashPaymentStrategy
+  href: docs/Payment.Domain.CashPaymentStrategy.html
+  commentId: T:Payment.Domain.CashPaymentStrategy
+  fullName: Payment.Domain.CashPaymentStrategy
+  nameWithType: CashPaymentStrategy
+- uid: Payment.Domain.CashPaymentStrategy.Pay(System.Double)
+  name: Pay(double)
+  href: docs/Payment.Domain.CashPaymentStrategy.html#Payment_Domain_CashPaymentStrategy_Pay_System_Double_
+  commentId: M:Payment.Domain.CashPaymentStrategy.Pay(System.Double)
+  name.vb: Pay(Double)
+  fullName: Payment.Domain.CashPaymentStrategy.Pay(double)
+  fullName.vb: Payment.Domain.CashPaymentStrategy.Pay(Double)
+  nameWithType: CashPaymentStrategy.Pay(double)
+  nameWithType.vb: CashPaymentStrategy.Pay(Double)
+- uid: Payment.Domain.CashPaymentStrategy.Pay*
+  name: Pay
+  href: docs/Payment.Domain.CashPaymentStrategy.html#Payment_Domain_CashPaymentStrategy_Pay_
+  commentId: Overload:Payment.Domain.CashPaymentStrategy.Pay
+  isSpec: "True"
+  fullName: Payment.Domain.CashPaymentStrategy.Pay
+  nameWithType: CashPaymentStrategy.Pay
+- uid: Payment.Domain.CreditCardPaymentStrategy
+  name: CreditCardPaymentStrategy
+  href: docs/Payment.Domain.CreditCardPaymentStrategy.html
+  commentId: T:Payment.Domain.CreditCardPaymentStrategy
+  fullName: Payment.Domain.CreditCardPaymentStrategy
+  nameWithType: CreditCardPaymentStrategy
+- uid: Payment.Domain.CreditCardPaymentStrategy.Pay(System.Double)
+  name: Pay(double)
+  href: docs/Payment.Domain.CreditCardPaymentStrategy.html#Payment_Domain_CreditCardPaymentStrategy_Pay_System_Double_
+  commentId: M:Payment.Domain.CreditCardPaymentStrategy.Pay(System.Double)
+  name.vb: Pay(Double)
+  fullName: Payment.Domain.CreditCardPaymentStrategy.Pay(double)
+  fullName.vb: Payment.Domain.CreditCardPaymentStrategy.Pay(Double)
+  nameWithType: CreditCardPaymentStrategy.Pay(double)
+  nameWithType.vb: CreditCardPaymentStrategy.Pay(Double)
+- uid: Payment.Domain.CreditCardPaymentStrategy.Pay*
+  name: Pay
+  href: docs/Payment.Domain.CreditCardPaymentStrategy.html#Payment_Domain_CreditCardPaymentStrategy_Pay_
+  commentId: Overload:Payment.Domain.CreditCardPaymentStrategy.Pay
+  isSpec: "True"
+  fullName: Payment.Domain.CreditCardPaymentStrategy.Pay
+  nameWithType: CreditCardPaymentStrategy.Pay
+- uid: Payment.Domain.DebitCardPaymentStrategy
+  name: DebitCardPaymentStrategy
+  href: docs/Payment.Domain.DebitCardPaymentStrategy.html
+  commentId: T:Payment.Domain.DebitCardPaymentStrategy
+  fullName: Payment.Domain.DebitCardPaymentStrategy
+  nameWithType: DebitCardPaymentStrategy
+- uid: Payment.Domain.DebitCardPaymentStrategy.Pay(System.Double)
+  name: Pay(double)
+  href: docs/Payment.Domain.DebitCardPaymentStrategy.html#Payment_Domain_DebitCardPaymentStrategy_Pay_System_Double_
+  commentId: M:Payment.Domain.DebitCardPaymentStrategy.Pay(System.Double)
+  name.vb: Pay(Double)
+  fullName: Payment.Domain.DebitCardPaymentStrategy.Pay(double)
+  fullName.vb: Payment.Domain.DebitCardPaymentStrategy.Pay(Double)
+  nameWithType: DebitCardPaymentStrategy.Pay(double)
+  nameWithType.vb: DebitCardPaymentStrategy.Pay(Double)
+- uid: Payment.Domain.DebitCardPaymentStrategy.Pay*
+  name: Pay
+  href: docs/Payment.Domain.DebitCardPaymentStrategy.html#Payment_Domain_DebitCardPaymentStrategy_Pay_
+  commentId: Overload:Payment.Domain.DebitCardPaymentStrategy.Pay
+  isSpec: "True"
+  fullName: Payment.Domain.DebitCardPaymentStrategy.Pay
+  nameWithType: DebitCardPaymentStrategy.Pay
+- uid: Payment.Domain.IPaymentStrategy
+  name: IPaymentStrategy
+  href: docs/Payment.Domain.IPaymentStrategy.html
+  commentId: T:Payment.Domain.IPaymentStrategy
+  fullName: Payment.Domain.IPaymentStrategy
+  nameWithType: IPaymentStrategy
+- uid: Payment.Domain.IPaymentStrategy.Pay(System.Double)
+  name: Pay(double)
+  href: docs/Payment.Domain.IPaymentStrategy.html#Payment_Domain_IPaymentStrategy_Pay_System_Double_
+  commentId: M:Payment.Domain.IPaymentStrategy.Pay(System.Double)
+  name.vb: Pay(Double)
+  fullName: Payment.Domain.IPaymentStrategy.Pay(double)
+  fullName.vb: Payment.Domain.IPaymentStrategy.Pay(Double)
+  nameWithType: IPaymentStrategy.Pay(double)
+  nameWithType.vb: IPaymentStrategy.Pay(Double)
+- uid: Payment.Domain.IPaymentStrategy.Pay*
+  name: Pay
+  href: docs/Payment.Domain.IPaymentStrategy.html#Payment_Domain_IPaymentStrategy_Pay_
+  commentId: Overload:Payment.Domain.IPaymentStrategy.Pay
+  isSpec: "True"
+  fullName: Payment.Domain.IPaymentStrategy.Pay
+  nameWithType: IPaymentStrategy.Pay
+- uid: Payment.Domain.PaymentContext
+  name: PaymentContext
+  href: docs/Payment.Domain.PaymentContext.html
+  commentId: T:Payment.Domain.PaymentContext
+  fullName: Payment.Domain.PaymentContext
+  nameWithType: PaymentContext
+- uid: Payment.Domain.PaymentContext.Pay(System.Double)
+  name: Pay(double)
+  href: docs/Payment.Domain.PaymentContext.html#Payment_Domain_PaymentContext_Pay_System_Double_
+  commentId: M:Payment.Domain.PaymentContext.Pay(System.Double)
+  name.vb: Pay(Double)
+  fullName: Payment.Domain.PaymentContext.Pay(double)
+  fullName.vb: Payment.Domain.PaymentContext.Pay(Double)
+  nameWithType: PaymentContext.Pay(double)
+  nameWithType.vb: PaymentContext.Pay(Double)
+- uid: Payment.Domain.PaymentContext.Pay*
+  name: Pay
+  href: docs/Payment.Domain.PaymentContext.html#Payment_Domain_PaymentContext_Pay_
+  commentId: Overload:Payment.Domain.PaymentContext.Pay
+  isSpec: "True"
+  fullName: Payment.Domain.PaymentContext.Pay
+  nameWithType: PaymentContext.Pay
+- uid: Payment.Domain.PaymentContext.SetPaymentStrategy(Payment.Domain.IPaymentStrategy)
+  name: SetPaymentStrategy(IPaymentStrategy)
+  href: docs/Payment.Domain.PaymentContext.html#Payment_Domain_PaymentContext_SetPaymentStrategy_Payment_Domain_IPaymentStrategy_
+  commentId: M:Payment.Domain.PaymentContext.SetPaymentStrategy(Payment.Domain.IPaymentStrategy)
+  fullName: Payment.Domain.PaymentContext.SetPaymentStrategy(Payment.Domain.IPaymentStrategy)
+  nameWithType: PaymentContext.SetPaymentStrategy(IPaymentStrategy)
+- uid: Payment.Domain.PaymentContext.SetPaymentStrategy*
+  name: SetPaymentStrategy
+  href: docs/Payment.Domain.PaymentContext.html#Payment_Domain_PaymentContext_SetPaymentStrategy_
+  commentId: Overload:Payment.Domain.PaymentContext.SetPaymentStrategy
+  isSpec: "True"
+  fullName: Payment.Domain.PaymentContext.SetPaymentStrategy
+  nameWithType: PaymentContext.SetPaymentStrategy
+- uid: Payment.Domain.PaymentService
+  name: PaymentService
+  href: docs/Payment.Domain.PaymentService.html
+  commentId: T:Payment.Domain.PaymentService
+  fullName: Payment.Domain.PaymentService
+  nameWithType: PaymentService
+- uid: Payment.Domain.PaymentService.ProcessPayment(System.Int32,System.Double)
+  name: ProcessPayment(int, double)
+  href: docs/Payment.Domain.PaymentService.html#Payment_Domain_PaymentService_ProcessPayment_System_Int32_System_Double_
+  commentId: M:Payment.Domain.PaymentService.ProcessPayment(System.Int32,System.Double)
+  name.vb: ProcessPayment(Integer, Double)
+  fullName: Payment.Domain.PaymentService.ProcessPayment(int, double)
+  fullName.vb: Payment.Domain.PaymentService.ProcessPayment(Integer, Double)
+  nameWithType: PaymentService.ProcessPayment(int, double)
+  nameWithType.vb: PaymentService.ProcessPayment(Integer, Double)
+- uid: Payment.Domain.PaymentService.ProcessPayment*
+  name: ProcessPayment
+  href: docs/Payment.Domain.PaymentService.html#Payment_Domain_PaymentService_ProcessPayment_
+  commentId: Overload:Payment.Domain.PaymentService.ProcessPayment
+  isSpec: "True"
+  fullName: Payment.Domain.PaymentService.ProcessPayment
+  nameWithType: PaymentService.ProcessPayment
+- uid: Payment.Domain.PaymentType
+  name: PaymentType
+  href: docs/Payment.Domain.PaymentType.html
+  commentId: T:Payment.Domain.PaymentType
+  fullName: Payment.Domain.PaymentType
+  nameWithType: PaymentType
+- uid: Payment.Domain.PaymentType.Cash
+  name: Cash
+  href: docs/Payment.Domain.PaymentType.html#Payment_Domain_PaymentType_Cash
+  commentId: F:Payment.Domain.PaymentType.Cash
+  fullName: Payment.Domain.PaymentType.Cash
+  nameWithType: PaymentType.Cash
+- uid: Payment.Domain.PaymentType.CreditCard
+  name: CreditCard
+  href: docs/Payment.Domain.PaymentType.html#Payment_Domain_PaymentType_CreditCard
+  commentId: F:Payment.Domain.PaymentType.CreditCard
+  fullName: Payment.Domain.PaymentType.CreditCard
+  nameWithType: PaymentType.CreditCard
+- uid: Payment.Domain.PaymentType.DebitCard
+  name: DebitCard
+  href: docs/Payment.Domain.PaymentType.html#Payment_Domain_PaymentType_DebitCard
+  commentId: F:Payment.Domain.PaymentType.DebitCard
+  fullName: Payment.Domain.PaymentType.DebitCard
+  nameWithType: PaymentType.DebitCard
+- uid: Payment.Domain.Tests
+  name: Payment.Domain.Tests
+  href: docs/Payment.Domain.Tests.html
+  commentId: N:Payment.Domain.Tests
+  fullName: Payment.Domain.Tests
+  nameWithType: Payment.Domain.Tests
+- uid: Payment.Domain.Tests.PaymentTests
+  name: PaymentTests
+  href: docs/Payment.Domain.Tests.PaymentTests.html
+  commentId: T:Payment.Domain.Tests.PaymentTests
+  fullName: Payment.Domain.Tests.PaymentTests
+  nameWithType: PaymentTests
+- uid: Payment.Domain.Tests.PaymentTests.GivenAValidPaymentTypeAndAmount_WhenProcessPayment_ResultIsSuccesful(System.Int32,System.Double)
+  name: GivenAValidPaymentTypeAndAmount_WhenProcessPayment_ResultIsSuccesful(int, double)
+  href: docs/Payment.Domain.Tests.PaymentTests.html#Payment_Domain_Tests_PaymentTests_GivenAValidPaymentTypeAndAmount_WhenProcessPayment_ResultIsSuccesful_System_Int32_System_Double_
+  commentId: M:Payment.Domain.Tests.PaymentTests.GivenAValidPaymentTypeAndAmount_WhenProcessPayment_ResultIsSuccesful(System.Int32,System.Double)
+  name.vb: GivenAValidPaymentTypeAndAmount_WhenProcessPayment_ResultIsSuccesful(Integer, Double)
+  fullName: Payment.Domain.Tests.PaymentTests.GivenAValidPaymentTypeAndAmount_WhenProcessPayment_ResultIsSuccesful(int, double)
+  fullName.vb: Payment.Domain.Tests.PaymentTests.GivenAValidPaymentTypeAndAmount_WhenProcessPayment_ResultIsSuccesful(Integer, Double)
+  nameWithType: PaymentTests.GivenAValidPaymentTypeAndAmount_WhenProcessPayment_ResultIsSuccesful(int, double)
+  nameWithType.vb: PaymentTests.GivenAValidPaymentTypeAndAmount_WhenProcessPayment_ResultIsSuccesful(Integer, Double)
+- uid: Payment.Domain.Tests.PaymentTests.GivenAValidPaymentTypeAndAmount_WhenProcessPayment_ResultIsSuccesful*
+  name: GivenAValidPaymentTypeAndAmount_WhenProcessPayment_ResultIsSuccesful
+  href: docs/Payment.Domain.Tests.PaymentTests.html#Payment_Domain_Tests_PaymentTests_GivenAValidPaymentTypeAndAmount_WhenProcessPayment_ResultIsSuccesful_
+  commentId: Overload:Payment.Domain.Tests.PaymentTests.GivenAValidPaymentTypeAndAmount_WhenProcessPayment_ResultIsSuccesful
+  isSpec: "True"
+  fullName: Payment.Domain.Tests.PaymentTests.GivenAValidPaymentTypeAndAmount_WhenProcessPayment_ResultIsSuccesful
+  nameWithType: PaymentTests.GivenAValidPaymentTypeAndAmount_WhenProcessPayment_ResultIsSuccesful
+- uid: Payment.Domain.Tests.PaymentTests.GivenAnUnknownPaymentTypeAndAmount_WhenProcessPayment_ResultIsError(System.Int32,System.Double)
+  name: GivenAnUnknownPaymentTypeAndAmount_WhenProcessPayment_ResultIsError(int, double)
+  href: docs/Payment.Domain.Tests.PaymentTests.html#Payment_Domain_Tests_PaymentTests_GivenAnUnknownPaymentTypeAndAmount_WhenProcessPayment_ResultIsError_System_Int32_System_Double_
+  commentId: M:Payment.Domain.Tests.PaymentTests.GivenAnUnknownPaymentTypeAndAmount_WhenProcessPayment_ResultIsError(System.Int32,System.Double)
+  name.vb: GivenAnUnknownPaymentTypeAndAmount_WhenProcessPayment_ResultIsError(Integer, Double)
+  fullName: Payment.Domain.Tests.PaymentTests.GivenAnUnknownPaymentTypeAndAmount_WhenProcessPayment_ResultIsError(int, double)
+  fullName.vb: Payment.Domain.Tests.PaymentTests.GivenAnUnknownPaymentTypeAndAmount_WhenProcessPayment_ResultIsError(Integer, Double)
+  nameWithType: PaymentTests.GivenAnUnknownPaymentTypeAndAmount_WhenProcessPayment_ResultIsError(int, double)
+  nameWithType.vb: PaymentTests.GivenAnUnknownPaymentTypeAndAmount_WhenProcessPayment_ResultIsError(Integer, Double)
+- uid: Payment.Domain.Tests.PaymentTests.GivenAnUnknownPaymentTypeAndAmount_WhenProcessPayment_ResultIsError*
+  name: GivenAnUnknownPaymentTypeAndAmount_WhenProcessPayment_ResultIsError
+  href: docs/Payment.Domain.Tests.PaymentTests.html#Payment_Domain_Tests_PaymentTests_GivenAnUnknownPaymentTypeAndAmount_WhenProcessPayment_ResultIsError_
+  commentId: Overload:Payment.Domain.Tests.PaymentTests.GivenAnUnknownPaymentTypeAndAmount_WhenProcessPayment_ResultIsError
+  isSpec: "True"
+  fullName: Payment.Domain.Tests.PaymentTests.GivenAnUnknownPaymentTypeAndAmount_WhenProcessPayment_ResultIsError
+  nameWithType: PaymentTests.GivenAnUnknownPaymentTypeAndAmount_WhenProcessPayment_ResultIsError

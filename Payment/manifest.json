@@ -11,6 +11,159 @@
       }
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/Payment.Domain.CashPaymentStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Payment.Domain.CashPaymentStrategy.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Payment.Domain.CashPaymentStrategy",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/Payment.Domain.CreditCardPaymentStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Payment.Domain.CreditCardPaymentStrategy.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Payment.Domain.CreditCardPaymentStrategy",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/Payment.Domain.DebitCardPaymentStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Payment.Domain.DebitCardPaymentStrategy.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Payment.Domain.DebitCardPaymentStrategy",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/Payment.Domain.IPaymentStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Payment.Domain.IPaymentStrategy.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Payment.Domain.IPaymentStrategy",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/Payment.Domain.PaymentContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Payment.Domain.PaymentContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Payment.Domain.PaymentContext",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/Payment.Domain.PaymentService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Payment.Domain.PaymentService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Payment.Domain.PaymentService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/Payment.Domain.PaymentType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Payment.Domain.PaymentType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Payment.Domain.PaymentType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/Payment.Domain.Tests.PaymentTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Payment.Domain.Tests.PaymentTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Payment.Domain.Tests.PaymentTests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/Payment.Domain.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Payment.Domain.Tests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Payment.Domain.Tests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/Payment.Domain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Payment.Domain.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Payment.Domain",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "payment.md",
       "output": {

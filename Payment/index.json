@@ -1,4 +1,54 @@
 {
+  "docs/Payment.Domain.CashPaymentStrategy.html": {
+    "href": "docs/Payment.Domain.CashPaymentStrategy.html",
+    "title": "Class CashPaymentStrategy | Payment Documentation",
+    "summary": "Class CashPaymentStrategy Namespace Payment.Domain Assembly Payment.Domain.dll public class CashPaymentStrategy : IPaymentStrategy Inheritance object CashPaymentStrategy Implements IPaymentStrategy Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Pay(double) public bool Pay(double amount) Parameters amount double Returns bool"
+  },
+  "docs/Payment.Domain.CreditCardPaymentStrategy.html": {
+    "href": "docs/Payment.Domain.CreditCardPaymentStrategy.html",
+    "title": "Class CreditCardPaymentStrategy | Payment Documentation",
+    "summary": "Class CreditCardPaymentStrategy Namespace Payment.Domain Assembly Payment.Domain.dll public class CreditCardPaymentStrategy : IPaymentStrategy Inheritance object CreditCardPaymentStrategy Implements IPaymentStrategy Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Pay(double) public bool Pay(double amount) Parameters amount double Returns bool"
+  },
+  "docs/Payment.Domain.DebitCardPaymentStrategy.html": {
+    "href": "docs/Payment.Domain.DebitCardPaymentStrategy.html",
+    "title": "Class DebitCardPaymentStrategy | Payment Documentation",
+    "summary": "Class DebitCardPaymentStrategy Namespace Payment.Domain Assembly Payment.Domain.dll public class DebitCardPaymentStrategy : IPaymentStrategy Inheritance object DebitCardPaymentStrategy Implements IPaymentStrategy Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Pay(double) public bool Pay(double amount) Parameters amount double Returns bool"
+  },
+  "docs/Payment.Domain.IPaymentStrategy.html": {
+    "href": "docs/Payment.Domain.IPaymentStrategy.html",
+    "title": "Interface IPaymentStrategy | Payment Documentation",
+    "summary": "Interface IPaymentStrategy Namespace Payment.Domain Assembly Payment.Domain.dll public interface IPaymentStrategy Methods Pay(double) bool Pay(double amount) Parameters amount double Returns bool"
+  },
+  "docs/Payment.Domain.PaymentContext.html": {
+    "href": "docs/Payment.Domain.PaymentContext.html",
+    "title": "Class PaymentContext | Payment Documentation",
+    "summary": "Class PaymentContext Namespace Payment.Domain Assembly Payment.Domain.dll public class PaymentContext Inheritance object PaymentContext Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Pay(double) public bool Pay(double amount) Parameters amount double Returns bool SetPaymentStrategy(IPaymentStrategy) public void SetPaymentStrategy(IPaymentStrategy strategy) Parameters strategy IPaymentStrategy"
+  },
+  "docs/Payment.Domain.PaymentService.html": {
+    "href": "docs/Payment.Domain.PaymentService.html",
+    "title": "Class PaymentService | Payment Documentation",
+    "summary": "Class PaymentService Namespace Payment.Domain Assembly Payment.Domain.dll public class PaymentService Inheritance object PaymentService Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods ProcessPayment(int, double) public bool ProcessPayment(int SelectedPaymentType, double Amount) Parameters SelectedPaymentType int Amount double Returns bool"
+  },
+  "docs/Payment.Domain.PaymentType.html": {
+    "href": "docs/Payment.Domain.PaymentType.html",
+    "title": "Enum PaymentType | Payment Documentation",
+    "summary": "Enum PaymentType Namespace Payment.Domain Assembly Payment.Domain.dll public enum PaymentType Fields Cash = 3 CreditCard = 1 DebitCard = 2"
+  },
+  "docs/Payment.Domain.Tests.PaymentTests.html": {
+    "href": "docs/Payment.Domain.Tests.PaymentTests.html",
+    "title": "Class PaymentTests | Payment Documentation",
+    "summary": "Class PaymentTests Namespace Payment.Domain.Tests Assembly Payment.Domain.Tests.dll public class PaymentTests Inheritance object PaymentTests Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods GivenAValidPaymentTypeAndAmount_WhenProcessPayment_ResultIsSuccesful(int, double) [TestCase(1, 1000)] [TestCase(2, 2000)] [TestCase(3, 3000)] public void GivenAValidPaymentTypeAndAmount_WhenProcessPayment_ResultIsSuccesful(int paymentType, double amount) Parameters paymentType int amount double GivenAnUnknownPaymentTypeAndAmount_WhenProcessPayment_ResultIsError(int, double) [TestCase(4, 4000)] public void GivenAnUnknownPaymentTypeAndAmount_WhenProcessPayment_ResultIsError(int paymentType, double amount) Parameters paymentType int amount double"
+  },
+  "docs/Payment.Domain.Tests.html": {
+    "href": "docs/Payment.Domain.Tests.html",
+    "title": "Namespace Payment.Domain.Tests | Payment Documentation",
+    "summary": "Namespace Payment.Domain.Tests Classes PaymentTests"
+  },
+  "docs/Payment.Domain.html": {
+    "href": "docs/Payment.Domain.html",
+    "title": "Namespace Payment.Domain | Payment Documentation",
+    "summary": "Namespace Payment.Domain Classes CashPaymentStrategy CreditCardPaymentStrategy DebitCardPaymentStrategy PaymentContext PaymentService Interfaces IPaymentStrategy Enums PaymentType"
+  },
   "payment.html": {
     "href": "payment.html",
     "title": "| Payment Documentation",

@@ -3,5 +3,50 @@
     "href": "atm.html",
     "title": "| ATM Documentation",
     "summary": "classDiagram class Account Account : +Int AccountNumber Account : +Decimal AccountBalance Account : +Withdraw() Void Account : +Deposit() Void class ATM ATM : +Action() Void class DepositCommand DepositCommand : +Execute() Void class ICommand ICommand : +Execute() Void class WithdrawCommand WithdrawCommand : +Execute() Void ICommand <|.. DepositCommand ICommand <|.. WithdrawCommand"
+  },
+  "docs/ATM.Domain.ATM.html": {
+    "href": "docs/ATM.Domain.ATM.html",
+    "title": "Class ATM | ATM Documentation",
+    "summary": "Class ATM Namespace ATM.Domain Assembly ATM.Domain.dll public class ATM Inheritance object ATM Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors ATM(ICommand) public ATM(ICommand command) Parameters command ICommand Methods Action() public void Action()"
+  },
+  "docs/ATM.Domain.Account.html": {
+    "href": "docs/ATM.Domain.Account.html",
+    "title": "Class Account | ATM Documentation",
+    "summary": "Class Account Namespace ATM.Domain Assembly ATM.Domain.dll public class Account Inheritance object Account Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields MAX_INPUT_AMOUNT public const decimal MAX_INPUT_AMOUNT = 10000 Field Value decimal Properties AccountBalance public decimal AccountBalance { get; set; } Property Value decimal AccountNumber public int AccountNumber { get; set; } Property Value int Methods Deposit(decimal) public void Deposit(decimal amount) Parameters amount decimal Withdraw(decimal) public void Withdraw(decimal amount) Parameters amount decimal"
+  },
+  "docs/ATM.Domain.DepositCommand.html": {
+    "href": "docs/ATM.Domain.DepositCommand.html",
+    "title": "Class DepositCommand | ATM Documentation",
+    "summary": "Class DepositCommand Namespace ATM.Domain Assembly ATM.Domain.dll public class DepositCommand : ICommand Inheritance object DepositCommand Implements ICommand Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors DepositCommand(Account, decimal) public DepositCommand(Account account, decimal amount) Parameters account Account amount decimal Methods Execute() public void Execute()"
+  },
+  "docs/ATM.Domain.ICommand.html": {
+    "href": "docs/ATM.Domain.ICommand.html",
+    "title": "Interface ICommand | ATM Documentation",
+    "summary": "Interface ICommand Namespace ATM.Domain Assembly ATM.Domain.dll public interface ICommand Methods Execute() void Execute()"
+  },
+  "docs/ATM.Domain.Tests.ATMTests.html": {
+    "href": "docs/ATM.Domain.Tests.ATMTests.html",
+    "title": "Class ATMTests | ATM Documentation",
+    "summary": "Class ATMTests Namespace ATM.Domain.Tests Assembly ATM.Domain.Tests.dll public class ATMTests Inheritance object ATMTests Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods GivenAccountAndDeposit_ThenExecute_ReturnsCorrectAmount() [Test] public void GivenAccountAndDeposit_ThenExecute_ReturnsCorrectAmount() GivenAccountAndWithdraw_ThenExecute_ReturnsCorrectAmount() [Test] public void GivenAccountAndWithdraw_ThenExecute_ReturnsCorrectAmount()"
+  },
+  "docs/ATM.Domain.Tests.Tests.html": {
+    "href": "docs/ATM.Domain.Tests.Tests.html",
+    "title": "Class Tests | ATM Documentation",
+    "summary": "Class Tests Namespace ATM.Domain.Tests Assembly ATM.Domain.Tests.dll public class Tests Inheritance object Tests Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Setup() [SetUp] public void Setup() Test1() [Test] public void Test1()"
+  },
+  "docs/ATM.Domain.Tests.html": {
+    "href": "docs/ATM.Domain.Tests.html",
+    "title": "Namespace ATM.Domain.Tests | ATM Documentation",
+    "summary": "Namespace ATM.Domain.Tests Classes ATMTests Tests"
+  },
+  "docs/ATM.Domain.WithdrawCommand.html": {
+    "href": "docs/ATM.Domain.WithdrawCommand.html",
+    "title": "Class WithdrawCommand | ATM Documentation",
+    "summary": "Class WithdrawCommand Namespace ATM.Domain Assembly ATM.Domain.dll public class WithdrawCommand : ICommand Inheritance object WithdrawCommand Implements ICommand Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors WithdrawCommand(Account, decimal) public WithdrawCommand(Account account, decimal amount) Parameters account Account amount decimal Methods Execute() public void Execute()"
+  },
+  "docs/ATM.Domain.html": {
+    "href": "docs/ATM.Domain.html",
+    "title": "Namespace ATM.Domain | ATM Documentation",
+    "summary": "Namespace ATM.Domain Classes ATM Account DepositCommand WithdrawCommand Interfaces ICommand"
   }
 }
