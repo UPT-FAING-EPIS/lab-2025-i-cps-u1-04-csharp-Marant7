@@ -24,14 +24,13 @@ jobs:
 
     - name: Create docfx.json for ATM
       run: |
-        mkdir -p ATM
         echo '{
           "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
           "metadata": [
             {
               "src": [
                 {
-                  "src": "ATM/ATM.Domain",
+                  "src": ".",
                   "files": [
                     "**/*.csproj"
                   ]
@@ -74,14 +73,13 @@ jobs:
 
     - name: Create docfx.json for Payment
       run: |
-        mkdir -p Payment
         echo '{
           "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
           "metadata": [
             {
               "src": [
                 {
-                  "src": "Payment/Payment.Domain",
+                  "src": ".",
                   "files": [
                     "**/*.csproj"
                   ]
@@ -124,18 +122,22 @@ jobs:
 
     - name: Build ATM documentation
       run: |
-        docfx metadata ATM/docfx.json
-        docfx build ATM/docfx.json -o public/ATM
+        cd ATM
+        docfx metadata docfx.json
+        docfx build docfx.json -o ../public/ATM
+        cd ..
 
     - name: Build Payment documentation
       run: |
-        docfx metadata Payment/docfx.json
-        docfx build Payment/docfx.json -o public/Payment
+        cd Payment
+        docfx metadata docfx.json
+        docfx build docfx.json -o ../public/Payment
+        cd ..
 
     - name: Create index.html for Documentation
       run: |
         mkdir -p public
-        echo '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Documentation Index</title></head><body><h1>Documentation Index</h1><ul><li><a href="ATM/docs/toc.html">ATM Documentation</a></li><li><a href="Payment/docs/toc.html">Payment Documentation</a></li></ul></body></html>' > public/index.html
+        echo '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Documentation Index</title></head><body><h1>Documentation Index</h1><p>Click below to view the documentation:</p><ul><li><a href="ATM/docs/toc.html">ATM Documentation</a></li><li><a href="Payment/docs/toc.html">Payment Documentation</a></li></ul></body></html>' > public/index.html
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
