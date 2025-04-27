@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Librería de dominio laboratorio.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+785b2ed2741b6c7602b281b27eb0fd2928b70420")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+562fec4d75bd781a54c35e962dc499686e663a8b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Payment.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Payment.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.1.0")]
