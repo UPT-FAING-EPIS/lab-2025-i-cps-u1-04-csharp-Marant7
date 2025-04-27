@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Payment.Domain.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+785b2ed2741b6c7602b281b27eb0fd2928b70420")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed4dd3c796ae53d8375c8295082621a9332ce802")]
 [assembly: System.Reflection.AssemblyProductAttribute("Payment.Domain.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Payment.Domain.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
