@@ -1,0 +1,12 @@
+C:\Users\Mario\Documents\LABORATORIOS DE PATRONES DE SOFTWARE\lab-2025-i-cps-u1-04-csharp-Marant7\Comportamiento\Comportamiento.Domain\bin\Debug\net8.0\Comportamiento.Domain.deps.json
+C:\Users\Mario\Documents\LABORATORIOS DE PATRONES DE SOFTWARE\lab-2025-i-cps-u1-04-csharp-Marant7\Comportamiento\Comportamiento.Domain\bin\Debug\net8.0\Comportamiento.Domain.dll
+C:\Users\Mario\Documents\LABORATORIOS DE PATRONES DE SOFTWARE\lab-2025-i-cps-u1-04-csharp-Marant7\Comportamiento\Comportamiento.Domain\bin\Debug\net8.0\Comportamiento.Domain.pdb
+C:\Users\Mario\Documents\LABORATORIOS DE PATRONES DE SOFTWARE\lab-2025-i-cps-u1-04-csharp-Marant7\Comportamiento\Comportamiento.Domain\obj\Debug\net8.0\Comportamiento.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mario\Documents\LABORATORIOS DE PATRONES DE SOFTWARE\lab-2025-i-cps-u1-04-csharp-Marant7\Comportamiento\Comportamiento.Domain\obj\Debug\net8.0\Comportamiento.Domain.AssemblyInfoInputs.cache
+C:\Users\Mario\Documents\LABORATORIOS DE PATRONES DE SOFTWARE\lab-2025-i-cps-u1-04-csharp-Marant7\Comportamiento\Comportamiento.Domain\obj\Debug\net8.0\Comportamiento.Domain.AssemblyInfo.cs
+C:\Users\Mario\Documents\LABORATORIOS DE PATRONES DE SOFTWARE\lab-2025-i-cps-u1-04-csharp-Marant7\Comportamiento\Comportamiento.Domain\obj\Debug\net8.0\Comportamiento.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Mario\Documents\LABORATORIOS DE PATRONES DE SOFTWARE\lab-2025-i-cps-u1-04-csharp-Marant7\Comportamiento\Comportamiento.Domain\obj\Debug\net8.0\Comportamiento.Domain.sourcelink.json
+C:\Users\Mario\Documents\LABORATORIOS DE PATRONES DE SOFTWARE\lab-2025-i-cps-u1-04-csharp-Marant7\Comportamiento\Comportamiento.Domain\obj\Debug\net8.0\Comportamiento.Domain.dll
+C:\Users\Mario\Documents\LABORATORIOS DE PATRONES DE SOFTWARE\lab-2025-i-cps-u1-04-csharp-Marant7\Comportamiento\Comportamiento.Domain\obj\Debug\net8.0\refint\Comportamiento.Domain.dll
+C:\Users\Mario\Documents\LABORATORIOS DE PATRONES DE SOFTWARE\lab-2025-i-cps-u1-04-csharp-Marant7\Comportamiento\Comportamiento.Domain\obj\Debug\net8.0\Comportamiento.Domain.pdb
+C:\Users\Mario\Documents\LABORATORIOS DE PATRONES DE SOFTWARE\lab-2025-i-cps-u1-04-csharp-Marant7\Comportamiento\Comportamiento.Domain\obj\Debug\net8.0\ref\Comportamiento.Domain.dll
