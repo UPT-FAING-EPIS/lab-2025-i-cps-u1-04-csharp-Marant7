@@ -5,10 +5,10 @@
   },
   "projects": {
     "C:\\Users\\Mario\\Documents\\LABORATORIOS DE PATRONES DE SOFTWARE\\lab-2025-i-cps-u1-04-csharp-Marant7\\Payment\\Payment.Domain\\Payment.Domain.csproj": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "restore": {
         "projectUniqueName": "C:\\Users\\Mario\\Documents\\LABORATORIOS DE PATRONES DE SOFTWARE\\lab-2025-i-cps-u1-04-csharp-Marant7\\Payment\\Payment.Domain\\Payment.Domain.csproj",
-        "projectName": "Payment.Domain",
+        "projectName": "PAYMENT.Domainlab04",
         "projectPath": "C:\\Users\\Mario\\Documents\\LABORATORIOS DE PATRONES DE SOFTWARE\\lab-2025-i-cps-u1-04-csharp-Marant7\\Payment\\Payment.Domain\\Payment.Domain.csproj",
         "packagesPath": "C:\\Users\\Mario\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Mario\\Documents\\LABORATORIOS DE PATRONES DE SOFTWARE\\lab-2025-i-cps-u1-04-csharp-Marant7\\Payment\\Payment.Domain\\obj\\",

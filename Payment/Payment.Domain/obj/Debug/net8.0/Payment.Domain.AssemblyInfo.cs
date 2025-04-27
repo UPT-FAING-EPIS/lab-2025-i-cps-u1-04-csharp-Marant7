@@ -10,13 +10,15 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Payment.Domain")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("MarantCompany")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc6f19d8989bf7f6afa0d65ffa2667ea8dfb6431")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Librería de dominio laboratorio.")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+785b2ed2741b6c7602b281b27eb0fd2928b70420")]
 [assembly: System.Reflection.AssemblyProductAttribute("Payment.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Payment.Domain")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.1.0")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/UPT-FAING-EPIS/lab-2025-i-cps-u1-04-csharp-Marant7")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
 
