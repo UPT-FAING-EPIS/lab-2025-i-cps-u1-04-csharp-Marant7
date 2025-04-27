@@ -1,4 +1,9 @@
 {
+  "disenio.html": {
+    "href": "disenio.html",
+    "title": "| Payment Documentation",
+    "summary": "classDiagram class CashPaymentStrategy CashPaymentStrategy : +Pay() Boolean class CreditCardPaymentStrategy CreditCardPaymentStrategy : +Pay() Boolean class DebitCardPaymentStrategy DebitCardPaymentStrategy : +Pay() Boolean class IPaymentStrategy IPaymentStrategy : +Pay() Boolean class PaymentContext PaymentContext : +SetPaymentStrategy() Void PaymentContext : +Pay() Boolean class PaymentService PaymentService : +ProcessPayment() Boolean IPaymentStrategy <|.. CashPaymentStrategy IPaymentStrategy <|.. CreditCardPaymentStrategy IPaymentStrategy <|.. DebitCardPaymentStrategy"
+  },
   "docs/Payment.Domain.CashPaymentStrategy.html": {
     "href": "docs/Payment.Domain.CashPaymentStrategy.html",
     "title": "Class CashPaymentStrategy | Payment Documentation",
@@ -48,10 +53,5 @@
     "href": "docs/Payment.Domain.html",
     "title": "Namespace Payment.Domain | Payment Documentation",
     "summary": "Namespace Payment.Domain Classes CashPaymentStrategy CreditCardPaymentStrategy DebitCardPaymentStrategy PaymentContext PaymentService Interfaces IPaymentStrategy Enums PaymentType"
-  },
-  "payment.html": {
-    "href": "payment.html",
-    "title": "| Payment Documentation",
-    "summary": "classDiagram class CashPaymentStrategy CashPaymentStrategy : +Pay() Boolean class CreditCardPaymentStrategy CreditCardPaymentStrategy : +Pay() Boolean class DebitCardPaymentStrategy DebitCardPaymentStrategy : +Pay() Boolean class IPaymentStrategy IPaymentStrategy : +Pay() Boolean class PaymentContext PaymentContext : +SetPaymentStrategy() Void PaymentContext : +Pay() Boolean class PaymentService PaymentService : +ProcessPayment() Boolean IPaymentStrategy <|.. CashPaymentStrategy IPaymentStrategy <|.. CreditCardPaymentStrategy IPaymentStrategy <|.. DebitCardPaymentStrategy"
   }
 }

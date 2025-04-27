@@ -12,10 +12,10 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "atm.md",
+      "source_relative_path": "disenio.md",
       "output": {
         ".html": {
-          "relative_path": "atm.html"
+          "relative_path": "disenio.html"
         }
       },
       "version": ""
