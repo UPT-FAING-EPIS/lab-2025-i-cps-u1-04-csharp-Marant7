@@ -1,0 +1,101 @@
+name: Build, Test, Analyze and Publish NuGet Package
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-test-analyze-publish:
+    runs-on: ubuntu-latest
+    name: CI Pipeline - NuGet + SonarCloud
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Restore dependencies
+        run: |
+          dotnet restore ATM/ATM.Domain/ATM.Domain.csproj
+          dotnet restore Payment/Payment.Domain/Payment.Domain.csproj
+
+      - name: Build solution
+        run: |
+          dotnet build ATM/ATM.Domain/ATM.Domain.csproj --configuration Debug
+          dotnet build Payment/Payment.Domain/Payment.Domain.csproj --configuration Debug
+
+      - name: Run tests with XPlat Code Coverage
+        run: |
+          dotnet test ATM/ATM.Domain.Tests/ATM.Domain.Tests.csproj \
+            --no-restore \
+            --no-build \
+            --configuration Debug \
+            --collect:"XPlat Code Coverage"
+          
+          dotnet test Payment/Payment.Domain.Tests/Payment.Domain.Tests.csproj \
+            --no-restore \
+            --no-build \
+            --configuration Debug \
+            --collect:"XPlat Code Coverage"
+
+      - name: List coverage files (debug)
+        run: find . -name coverage.cobertura.xml || echo "No coverage files found"
+
+      - name: Install ReportGenerator
+        run: dotnet tool install -g dotnet-reportgenerator-globaltool
+
+      - name: Generate coverage report
+        run: |
+          export PATH="$PATH:$HOME/.dotnet/tools"
+          reportgenerator \
+            -reports:"**/coverage.cobertura.xml" \
+            -targetdir:CoverageReport \
+            -reporttypes:Html
+
+      - name: Upload test results
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results
+          path: '**/TestResults'
+
+      - name: Upload coverage report
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-report
+          path: CoverageReport
+
+      - name: Install SonarScanner for .NET
+        run: |
+          dotnet tool install --global dotnet-sonarscanner
+
+      - name: Run SonarCloud analysis
+        run: |
+          dotnet sonarscanner begin /k:"apistestlabs_apistestlabs2" /o:"apistestlabs" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
+          dotnet build ATM/ATM.Domain/ATM.Domain.csproj --configuration Release
+          dotnet build Payment/Payment.Domain/Payment.Domain.csproj --configuration Release
+          dotnet sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
+
+      - name: Pack the NuGet packages
+        run: |
+          dotnet pack ATM/ATM.Domain/ATM.Domain.csproj --configuration Release --output ./nuget
+          dotnet pack Payment/Payment.Domain/Payment.Domain.csproj --configuration Release --output ./nuget
+
+      - name: Publish to GitHub Packages
+        run: |
+          dotnet nuget push ./nuget/*.nupkg --source "https://nuget.pkg.github.com/Marant7/index.json" --api-key "${{ secrets.GH_PACKAGES_TOKEN }}"
+        env:
+          NUGET_AUTH_TOKEN: ${{ secrets.GH_PACKAGES_TOKEN }}
+
+      - name: Upload NuGet packages as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: nuget-packages
+          path: ./nuget/*.nupkg

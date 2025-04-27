@@ -4,6 +4,14 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+   <PackageId>ATM.Domainlab04</PackageId>
+     <Version>1.0.1</Version>
+    <Authors>Marant</Authors>
+    <Company>MarantCompany</Company>
+    <Description>Librería de dominio .</Description>
+    <RepositoryUrl>https://github.com/UPT-FAING-EPIS/lab-2025-i-cps-u1-04-csharp-Marant7</RepositoryUrl>
+
+
   </PropertyGroup>
 
 </Project>

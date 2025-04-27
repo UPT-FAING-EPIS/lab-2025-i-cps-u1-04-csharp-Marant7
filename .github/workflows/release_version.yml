@@ -1,0 +1,57 @@
+name: Release Version
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'   # Ejecutar solo cuando se suba un tag como v1.0.0
+
+jobs:
+  build-test-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.x'
+
+      - name: Restore dependencies for ATM and Payment
+        run: |
+          dotnet restore ATM/ATM.sln
+          dotnet restore Payment/Payment.sln
+
+      - name: Build Solution for ATM and Payment
+        run: |
+          dotnet build ATM/ATM.sln --configuration Release --no-restore
+          dotnet build Payment/Payment.sln --configuration Release --no-restore
+
+      - name: Run Unit Tests
+        run: |
+          dotnet test ATM/ATM.sln --configuration Release --no-build --verbosity normal
+          dotnet test Payment/Payment.sln --configuration Release --no-build --verbosity normal
+
+      - name: Pack the NuGet packages for ATM.Domain
+        run: |
+          dotnet pack ATM/ATM.Domain/ATM.Domain.csproj --configuration Release --output ./nuget
+
+      - name: Pack the NuGet packages for Payment.Domain
+        run: |
+          dotnet pack Payment/Payment.Domain/Payment.Domain.csproj --configuration Release --output ./nuget
+
+      - name: Create Release Archive
+        run: |
+          mkdir release
+          cp -r ./nuget/*.nupkg release/  # Copiar los paquetes NuGet generados al directorio de release
+          cd release
+          zip -r ../release.zip .
+          cd ..
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: release.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
